@@ -1,0 +1,191 @@
+#flyoutMenu {
+    padding-top: 0px;
+    width: 87vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform .3s
+                cubic-bezier(0, .52, 0, 1);
+    overflow: auto;
+    z-index: 1000;
+    -webkit-box-shadow: 3px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 0px 3px 0px rgba(0,0,0,0.75);
+
+
+
+   
+
+    
+  }
+  .logo {
+    width: 150px;
+    height: 150px;
+    padding: 10px 0px 10px 0px;
+    
+  } 
+  
+  .navi {
+    padding-top: 0px;
+    /* height: 100vh; */
+    min-height: 100%;
+    text-decoration: none;
+
+
+
+  }
+
+  .containerlogo {
+    text-align: center;
+    justify-content: center;
+    align-Items: center;
+    background-color: #033949;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    border: 0px solid #000000;
+
+
+  }
+   
+  #flyoutMenu.hide {
+    transform: translate3d(-100vw, 0, 0);
+  }
+   
+  #flyoutMenu.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: scroll;
+  }
+
+  @media screen and (orientation: portrait) {
+    #flyoutMenu.show  {
+      height: 100vh;
+    }
+  }
+  @media screen and (orientation: landscape) {
+    #flyoutMenu  {
+      width: 47vw;
+    }
+  }
+
+
+  #flyoutMenu h2 a {
+    color: #333;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+   
+  #flyoutMenu h2 a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  /* .nav a{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: "Neue Helvetica", "Times New Roman";
+  } */
+
+  .nav button{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: "Neue Helvetica", "Times New Roman";
+  }
+
+  .button {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 0px !important;
+  }
+  .Link {
+    padding: 0px !important;
+  }
+
+
+  .navhome {
+    padding-top: 3px;
+  }
+
+  .underlineone:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 90%; 
+    border-bottom: 0.5px silver solid; 
+  }
+
+  .underlinetwo:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 90%; 
+    border-bottom: 0.5px silver solid; 
+  }
+
+  .homebutton, .gamesbutton, .standingbutton, .teamsbutton, .rulesbutton, .aboutbutton, .contactbutton, .loginbutton   {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+
+.homebutton {
+  background-image: url('../../img/home-button.svg');
+}
+
+.gamesbutton {
+  background-image: url('../../img/games-button.svg');
+}
+
+.standingbutton {
+  background-image: url('../../img/standing-button.svg');
+}
+
+.teamsbutton {
+  background-image: url('../../img/teams-button.svg');
+}
+
+.rulesbutton {
+  background-image: url('../../img/rules-button.svg');
+}
+
+.aboutbutton {
+  background-image: url('../../img/about-button.svg');
+}
+.contactbutton {
+  background-image: url('../../img/contact-button.svg');
+}
+.loginbutton {
+  background-image: url('../../img/login-button.svg');
+}
+
+
+
+
+
+  @media screen and (orientation: landscape) {
+    .homebutton, .gamesbutton, .standingbutton, .teamsbutton, .rulesbutton, .aboutbutton, .contactbutton, .loginbutton  {
+      background-size: 25%;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .homebutton, .gamesbutton, .standingbutton, .teamsbutton, .rulesbutton, .aboutbutton, .contactbutton, .loginbutton   {
+      background-size: 25%;
+    }
+  }
+
+    
+  

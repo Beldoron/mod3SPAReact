@@ -1,0 +1,11 @@
+.homestyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    max-height: 950px;
+    padding: 1.06rem 1.06rem 1.06rem 1.06rem;
+    background-color: rgba(03, 39, 94, 0.7);
+    box-shadow: 0 2px 2px 2px #000000;
+    
+}

@@ -1,0 +1,50 @@
+
+.welcome {
+    
+    
+    height: 25vh;
+    width: 100vw;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.homeone {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    padding-top: 3px;
+}
+
+.hometwo {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    padding-top: 0px;
+}
+
+.introtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 5vh;
+    text-align: center;
+    justify-content: center;
+    align-Items: center;
+    background-color: #033949;
+    font-family: "Neue Helvetica", "Times New Roman";
+    -webkit-box-shadow: 3px 5px 20px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 5px 20px 1px rgba(0,0,0,0.75);
+box-shadow: 3px 5px 20px 1px rgba(0,0,0,0.75);
+}
+
+.splitter {
+    background-color: #033949;
+    height: 0.5vh;
+}
+
+
+
+
+
+
